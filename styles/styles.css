@@ -170,7 +170,7 @@ main.Home_main__nLjiQ {
 
 .slide-img {
     width: 100%;
-    height: 499px;
+    height: 100%;
 }
 
 .services {
@@ -202,4 +202,17 @@ main.Home_main__nLjiQ {
 .item .title {
     margin-left: 0.5vw;
     transform: translateY(2px);
+}
+
+.banners .banner-box {
+    text-align: center;
+    cursor: pointer
+}
+
+.banners .banner-box img {
+    width: 100%
+}
+
+.banners .banner-box h2 {
+    font-size: 24.5px;
 }

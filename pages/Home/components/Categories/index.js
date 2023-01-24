@@ -1,9 +1,7 @@
-import styles from '@/styles/Home.module.css'
-
 export default function CategoryList() {
     return (
         <>
-            <div className={[styles.grid, styles.categoryList]}>
+            <div className={''}>
                 install swipper swiperCategories
             </div>        
         </>

@@ -1,4 +1,3 @@
-import styles from '@/styles/Home.module.css'
 import Header from './Header'
 import Slideshow from './Home/components/Slideshow'
 import ServiceList from './Home/components/Services'
@@ -6,7 +5,7 @@ import CategoryList from './Home/components/Categories'
 import PromoList from './Home/components/Promos'
 import BrandsList from './Home/components/Brands'
 import OffersList from './Home/components/Offers'
-import BannersList from './Home/components/Banners'
+import Banners from './Home/components/Banners'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,7 +22,7 @@ export default function Home() {
         <PromoList />
         <BrandsList />
         <OffersList />
-        <BannersList />
+        <Banners />
     </>
   )
 }

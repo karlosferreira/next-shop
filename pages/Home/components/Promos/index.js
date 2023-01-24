@@ -1,9 +1,7 @@
-import styles from '@/styles/Home.module.css'
-
 export default function PromoList() {
     return (
         <>
-            <div className={[styles.grid, styles.promoList]}>
+            <div className={''}>
                 install swipper swiperPromoMale
             </div>
         </>
