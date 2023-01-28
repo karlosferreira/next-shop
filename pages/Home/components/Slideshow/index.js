@@ -10,8 +10,8 @@ import 'swiper/css/pagination';
 
 import Image from 'next/image';
 
-import slide1 from '@/public/slide1.png'
-import slide2 from '@/public/slide2.png'
+import slide1 from '@/public/slideshow/slide1.png'
+import slide2 from '@/public/slideshow/slide2.png'
 
 export default function Slideshow() {
     return (

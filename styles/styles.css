@@ -244,3 +244,14 @@ main.Home_main__nLjiQ {
     padding: 7px 70px;
     text-transform: uppercase;
 }
+
+.categories {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat-img {
+    width: 180px;
+    height: 180px;
+}
