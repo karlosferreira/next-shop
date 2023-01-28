@@ -31,24 +31,28 @@ export default function CategoryList() {
                         <div className={'row'}>
                             <Swiper
                                 modules={[Autoplay, Navigation, Scrollbar, A11y]}
-                                spaceBetween={0}
+                                spaceBetween={20}
                                 slidesPerView={6}
-                                slidesPerGroup={5}
-                                navigation
+                                slidesPerGroup={3}
+                                navigation={false}
+                                autoplay={{
+                                    delay: 3500,
+                                    disableOnInteraction: false,
+                                }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChange={() => console.log('slide change')}
                             >
                                 <SwiperSlide><Image className='cat-img' src={cat1} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat2} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat3} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat4} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat5} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat6} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat7} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat8} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat9} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat10} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
-                                <SwiperSlide><Image className='cat-img' src={cat11} /><div className='banner-content'><h3>Moletons</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat2} /><div className='banner-content'><h3>Calças</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat3} /><div className='banner-content'><h3>Underwear</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat4} /><div className='banner-content'><h3>Camisetas</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat5} /><div className='banner-content'><h3>Bermudas</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat6} /><div className='banner-content'><h3>Polos</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat7} /><div className='banner-content'><h3>Bonés</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat8} /><div className='banner-content'><h3>Tenis</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat9} /><div className='banner-content'><h3>Esportivos</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat10} /><div className='banner-content'><h3>Chinelos</h3></div></SwiperSlide>
+                                <SwiperSlide><Image className='cat-img' src={cat11} /><div className='banner-content'><h3>Mochilas</h3></div></SwiperSlide>
                             </Swiper>
                         </div>
                     </div>
