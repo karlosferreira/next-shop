@@ -274,3 +274,8 @@ main.Home_main__nLjiQ {
 .brands h2 {
     font-size: 24.5px;
 }
+
+.brands-offer .brands-offer-img {
+    width: 100%;
+    height: auto;
+}
