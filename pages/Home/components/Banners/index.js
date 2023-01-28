@@ -23,10 +23,10 @@ export default function Banners() {
                         </div>
                     </div>                   
                 </div>
+                <p className={'offer-note'}>*Promoções válidas apenas em produtos selecionados, enquanto durar a campanha e/ou o estoque.
+                Veja o regulamento específico ao clicar em cada campanha. Frete não incluso no desconto. 
+                Imagens meramente ilustrativas.</p>
             </div>
-            <p>*Promoções válidas apenas em produtos selecionados, enquanto durar a campanha e/ou o estoque.
-            Veja o regulamento específico ao clicar em cada campanha. Frete não incluso no desconto. 
-            Imagens meramente ilustrativas.</p>
         </div>
     )
 }
