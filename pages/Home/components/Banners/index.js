@@ -1,8 +1,21 @@
+import singleBanner from "@/public/banners/perfumes.jpg"
+import Image from "next/image"
+
 export default function Banners() {
     return (
-        <div className='banners col-md-12 col-sm-12 col-xs-12'>
+        <div className={'banners mt-5 mb-5 col-md-12 col-sm-12 col-xs-12'}>
             <div className={'container'}>
-                <h2>Novidades</h2>
+                <div className="row mt-5 mb-5">
+                    <h2 className="mb-4">Confira o lançamento!</h2>
+                    <div className='row m-0 p-0'>
+                        <div className='col-md-12 col-sm-12 col-xs-12'>
+                            <div className={'banner-box'}>
+                                <Image src={singleBanner} />
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <h2 className={'mb-4'}>Novidades</h2>
                 <div className='row'>
                     <div className='col-md-6 col-sm-6 col-xs-6'>
                         <div className={'banner-box'}>
@@ -21,11 +34,13 @@ export default function Banners() {
                                 <button>Confira</button>
                             </a>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
-                <p className={'offer-note'}>*Promoções válidas apenas em produtos selecionados, enquanto durar a campanha e/ou o estoque.
-                Veja o regulamento específico ao clicar em cada campanha. Frete não incluso no desconto. 
-                Imagens meramente ilustrativas.</p>
+                <div className={'mt-4'}>
+                    <p className={'offer-note'}>*Promoções válidas apenas em produtos selecionados, enquanto durar a campanha e/ou o estoque.
+                    Veja o regulamento específico ao clicar em cada campanha. Frete não incluso no desconto. 
+                    Imagens meramente ilustrativas.</p>                
+                </div> 
             </div>
         </div>
     )

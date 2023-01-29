@@ -25,10 +25,10 @@ import brand11 from '@/public/brands/vans.jpg';
 export default function BrandsList() {
     return (
         <>
-            <div className={'brands'}>
+            <div className={'brands mb-5'}>
                 <div className={'col-md-12 col-sm-12 col-xs-12'}>
                     <div className={'container'}>
-                        <h2>Marcas</h2>
+                        <h2 className={'mt-3 mb-3'}>Marcas</h2>
                         <div className={'row'}>
                             <Swiper
                                 modules={[Autoplay, Navigation, Scrollbar, A11y]}

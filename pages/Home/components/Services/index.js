@@ -9,7 +9,7 @@ import { BsBoxSeam } from "react-icons/bs"
 
 export default function ServicesList() {
     return (
-        <div className={'services'}>
+        <div className={'services mt-0 mb-0'}>
             <div className='col-md-12 col-sm-12 col-xs-12'>
                 <div className="container">
                     <div className="row">

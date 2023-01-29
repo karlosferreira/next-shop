@@ -25,7 +25,7 @@ import cat11 from '@/public/cats/57628ef9a1bf__4_banner-categoria_180x180_masc_m
 export default function CategoryList() {
     return (
         <>
-            <div className={'categories'}>
+            <div className={'categories mt-5 mb-5'}>
                 <div className={'col-md-12 col-sm-12 col-xs-12'}>
                     <div className={'container'}>
                         <div className={'row'}>

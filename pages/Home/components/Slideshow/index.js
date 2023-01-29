@@ -16,7 +16,7 @@ import slide2 from '@/public/slideshow/slide2.png'
 export default function Slideshow() {
     return (
         <>
-            <div className='slideshow'>
+            <div className='slideshow mt-0 mb-0'>
                 <Swiper
                     modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={0}
