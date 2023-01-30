@@ -32,7 +32,7 @@ export default function BrandsList() {
                         <div className={'row'}>
                             <Swiper
                                 modules={[Autoplay, Navigation, Scrollbar, A11y]}
-                                spaceBetween={10}
+                                spaceBetween={20}
                                 slidesPerView={8}
                                 slidesPerGroup={4}
                                 navigation={false}

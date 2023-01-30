@@ -9,6 +9,10 @@ import Banners from './Home/components/Banners'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import singleBanner from "@/public/banners/perfumes.jpg"
+import banner3 from "@/public/banners/banner3.jpg"
+import banner2 from "@/public/banners/banner2.jpg"
+
 export default function Home() {
   return (
     <>
@@ -20,9 +24,43 @@ export default function Home() {
         <ServiceList />
         <CategoryList />
         <PromoList />
+        <div className={'banners mb-5 col-md-12 col-sm-12 col-xs-12'}>
+          <div className={'container'}>
+            <div className='row'>
+              <Banners 
+                title={'Confira o lançamento!'} 
+                source={singleBanner} 
+              />
+            </div>
+          </div>
+        </div>        
         <BrandsList />
         <OffersList />
-        <Banners />
+        <div className={'banners mt-4 mb-5 col-md-12 col-sm-12 col-xs-12'}>
+          <div className={'container'}>
+            <div className='row'>
+              <div className='col-md-6 col-sm-6 col-xs-6'>
+                <Banners 
+                  source={banner2}
+                  infoTitle={'Ofertas imperdíveis: camisetas até R$39,99*'}
+                  btnTitle={'Confira'}
+                />
+              </div>
+              <div className='col-md-6 col-sm-6 col-xs-6'>
+                <Banners
+                  source={banner3}
+                  infoTitle={'Ofertas imperdíveis de regatas masculinas'}
+                  btnTitle={'Confira'}
+                />
+              </div>
+            </div>
+            <div className={''}>
+              <p className={'offer-note'}>*Promoções válidas apenas em produtos selecionados, enquanto durar a campanha e/ou o estoque.
+              Veja o regulamento específico ao clicar em cada campanha. Frete não incluso no desconto. 
+              Imagens meramente ilustrativas.</p>
+            </div>
+          </div>
+        </div>
     </>
   )
 }

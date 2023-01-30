@@ -25,7 +25,7 @@ import cat11 from '@/public/brands-offer/cat-promo11.jpg';
 export default function OffersList() {
     return (
         <>
-            <div className={'brands-offer mt-5 mb-5'}>
+            <div className={'brands-offer mt-5'}>
                 <div className={'col-md-12 col-sm-12 col-xs-12'}>
                     <div className={'container'}>
                         <div className={'row'}>
