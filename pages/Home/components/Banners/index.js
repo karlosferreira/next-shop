@@ -23,7 +23,7 @@ export default function Banners({title = null, source, infoTitle = null, btnTitl
                         </div>                            
                     </div>
                 </div>
-            </div>        
+            </div>
         </>
     )
 }

@@ -305,3 +305,81 @@ main.Home_main__nLjiQ {
     height: auto;
     max-width: 1920px;
 }
+
+footer {
+    background: #000000;
+    color: #ffffff;
+}
+
+footer h3 {
+    padding: 21px;
+    padding-left: 0;
+    padding-bottom: 14px;
+    font-weight: 100;
+    font-size: 28.5px;
+}
+
+footer h4 {
+    padding-left: 14.5px;
+    padding-bottom: 7px;
+    font-size: 24.5px;
+    font-weight: 400;
+}
+
+form .check span {
+    padding-left: 0.5vw;
+    font-weight: 600;
+}
+
+footer p {
+    padding-left: 14px;
+    font-size: 14.5px;
+}
+
+footer .card-form .form-control {
+    margin-right: 0.5vw;
+}
+
+footer .card-form {
+    background: #00d74c;
+    padding: 14px;
+    width: 90%;
+}
+
+footer .box {
+    display: inline-block;
+    text-align: center;
+}
+
+footer .box-footer {
+    margin-top: 42px;
+}
+
+footer .box-footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+footer .box-footer li {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer .footer-content h5 {
+    font-size: 17.5px;
+    font-weight: 400;
+}
+
+footer .community {
+    margin: 0;
+    padding: 35px;
+    border-left: 3.5px solid;
+}
+
+footer .newsletter {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1366px;
+}

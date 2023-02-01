@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import singleBanner from "@/public/banners/perfumes.jpg"
 import banner3 from "@/public/banners/banner3.jpg"
 import banner2 from "@/public/banners/banner2.jpg"
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      <Footer />  
     </>
   )
 }
