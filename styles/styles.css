@@ -307,8 +307,12 @@ main.Home_main__nLjiQ {
 }
 
 footer {
-    background: #000000;
+    background: #f8f9fa;
     color: #ffffff;
+}
+
+.footer-content h5 {
+    color: #333333;
 }
 
 footer h3 {
@@ -317,6 +321,7 @@ footer h3 {
     padding-bottom: 14px;
     font-weight: 100;
     font-size: 28.5px;
+    color: #333333;
 }
 
 footer h4 {
@@ -341,9 +346,13 @@ footer .card-form .form-control {
 }
 
 footer .card-form {
-    background: #00d74c;
+    background: #333333;
     padding: 14px;
     width: 90%;
+}
+
+form .send button {
+    float: right;
 }
 
 footer .box {
@@ -352,7 +361,7 @@ footer .box {
 }
 
 footer .box-footer {
-    margin-top: 42px;
+    margin-top: 70px;
 }
 
 footer .box-footer ul {
@@ -374,7 +383,7 @@ footer .footer-content h5 {
 footer .community {
     margin: 0;
     padding: 35px;
-    border-left: 3.5px solid;
+    border-left: 14px solid;
 }
 
 footer .newsletter {
