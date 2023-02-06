@@ -177,7 +177,7 @@ export default function MegaMenu() {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li className="outlet-menu">
                                 <a href='#'><h3>Outlet</h3></a>
                                 <ul className="none">
                                     <li>
